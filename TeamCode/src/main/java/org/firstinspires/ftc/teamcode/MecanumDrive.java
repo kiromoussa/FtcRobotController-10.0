@@ -131,6 +131,7 @@ public final class MecanumDrive {
         private boolean initialized;
 
         public DriveLocalizer() {
+            //This test
             FrontLeft = new OverflowEncoder(new RawEncoder(MecanumDrive.this.FrontLeft));
             BackLeft = new OverflowEncoder(new RawEncoder(MecanumDrive.this.BackLeft));
             BackRight = new OverflowEncoder(new RawEncoder(MecanumDrive.this.BackRight));
